@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import confetti from "canvas-confetti";
 
+
 export default function Welcome({ setUser }) {
   const [form, setForm] = useState({ name: "", email: "", contact: "" });
 
