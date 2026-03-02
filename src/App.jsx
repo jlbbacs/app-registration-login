@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Welcome from "./pages/Welcome";
 import Dashboard from "./pages/Dashboard";
+import './App.css'
 
 function App() {
   const [user, setUser] = useState(null);
